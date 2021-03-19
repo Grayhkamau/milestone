@@ -1,0 +1,359 @@
+/*index.html*/
+
+/*html-2.html*/
+*{
+    margin:0;
+}
+nav{
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+}
+h{
+ font-size: 40px; 
+ font-style: italic;  
+}
+a{
+    text-decoration: none;
+}
+ul a li:visited
+{
+    background-color:red;
+}
+ul a li{
+    list-style-type: none;
+    display: inline;
+    margin:80px 0 0 40px;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+ul a:first-child{
+margin-left: 100px;
+
+}
+ul li:last-child{
+    padding-right: 0;
+}
+nav img{
+    margin-top: 20px;
+    position: fixed;
+    right: 6%;
+}
+main{
+    display: inline;
+}
+img{
+    height: 340px;
+    width: 340px;
+    display: inline;
+}
+.container-1{
+    position: absolute;
+    left: 100px;
+    top: 153px;
+    transition: 2s;
+}
+.container-1:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text{
+margin: 0 0 0 140px;    
+}
+.container-2{
+    position: absolute;
+    top: 153px;
+     margin: 0 0 0 520px;
+     transition: 2s;
+}
+.container-2:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-2{
+    margin: 0 0 0 140px;
+}
+.container-3{
+   position: absolute;
+    top: 153px;
+     margin: 0 0 0 940px;
+     transition: 2s; 
+     
+}
+.container-3:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-3{
+    margin: 0 0 0 140px;
+}
+p3{
+    position: absolute;
+    top: 154px;
+     margin: 0 0 0 940px; 
+     font-size: 20px;
+     font-weight: bolder;
+
+}
+.container-4{
+  position: absolute;
+    left: 100px;
+    top: 633px;
+    transition: 2s;
+}
+.container-4:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-4{
+    margin: 0 0 0 140px;
+}
+
+.container-5{
+    position: absolute;
+    top: 633px;
+     margin: 0 0 0 520px;
+     transition: 2s;
+}
+.container-5:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-5{
+    margin: 0 0 0 140px;
+}
+p5{
+    position: absolute;
+     top: 633px;
+     margin: 0 0 0 520px;
+     font-size: 20px;
+     font-weight: bolder;
+
+}
+.container-6{
+  position: absolute;
+    top: 633px;
+     margin: 0 0 0 940px;
+     transition: 2s;   
+}
+.container-6:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-6{
+    margin: 0 0 0 140px;
+}
+.container-7{
+  
+  position: absolute;
+    left: 100px;
+    top: 1120px;
+    transition: 2s;
+}
+.container-7:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-7{
+    margin: 0 0 0 140px;
+}
+.container-8{
+    position: absolute;
+    top: 1120px;
+     margin: 0 0 0 520px;
+     transition: 2s;
+}
+.container-8:hover{
+    box-shadow: 0 4px 4px 4px grey;
+}
+.text-8{
+    margin: 0 0 0 140px;
+}
+.button-1 form input[type=button]{
+position: absolute;
+background-color:orange;
+right: 10%;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+top: 1470px;
+}
+
+
+/*details page*/
+.body{
+    width:1000px;
+    height: auto;
+    margin-left: 200px;
+}
+.body nav a li{
+
+}
+.main-2{
+    column-count: 2;
+}
+.main-2 img{
+    margin: 40px 0 0 0;
+}
+.main-2 p{
+    margin:180px;
+    font-style: italic;
+    font-size: 20px;
+}
+.button-details form input[type=button]{
+    margin: 10px 0 0 370px ;
+    background-color:orange;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+/*iframe{
+    display: none;
+}
+.container-1 a:active{
+    & iframe{
+        display: inline;
+    }
+}*/
+
+/*cart page*/
+.body-3{
+ width:1000px;
+    height: auto;
+    margin-left: 200px;
+}
+.body-3 img{
+    width: 230px;
+    display: block;
+    height:auto;
+    margin: 40px 0 0 200px;
+}
+.option-1{
+    margin: 0 0 0px 500px;
+    position: absolute;
+    top: 13%;
+}
+.option-1 p{
+    margin:0 0 35px 50px;
+    font-size:20px;
+    
+}
+.option-1 input[type=number]{
+    border-radius: 9px;
+    width: 70px;
+    height: 25px;
+    transition: 1s;
+}
+.quantity input[type=number]{
+    margin: 0 0 0 124px;
+    position: absolute;
+    top: 24%;
+}
+.quantity input[type=number]:hover{
+    width:100px;
+}
+.total input[type=number]{
+   margin: 0 0 0 120px; 
+   position: absolute;
+   top: 50%;
+}
+.total input[type=number]:hover{
+    width:100px;
+}
+.option-1 input[type=button]{
+    background-color: orange;
+    border-radius: 10px;
+    height: 40px;
+    width: 50px;
+}
+.button-reset{
+    margin: 0 0 0 300px;
+    position: absolute;
+    top: 30%;
+}
+.button-enter{
+    margin:40px 0 0 100px;
+}
+p4{
+    display: inline;
+    font-style: italic;
+    font-style: 30px;
+
+}
+
+
+.option-2{
+    margin: 0 0 0px 500px;
+    position: absolute;
+    top: 47%;
+}
+.option-2 p{
+  margin:0 0 35px 50px;
+   font-size:20px;
+}
+.option-2 p4{
+  display: inline;
+    font-style: italic;
+    font-style: 30px;  
+}
+.option-2 input[type=number]{
+    border-radius: 9px;
+    width: 70px;
+    height: 25px;
+    transition: 1s;
+}
+.quantity-2 input[type=number]{
+    margin: 0 0 0 124px;
+    position: absolute;
+    top: 24%;
+}
+.quantity-2 input[type=number]:hover{
+    width:100px;
+}
+.total-2 input[type=number]{
+   margin: 0 0 0 120px; 
+   position: absolute;
+   top: 50%;
+}
+.total-2 input[type=number]:hover{
+    width:100px;
+}
+.option-2 input[type=button]{
+    background-color: orange;
+    border-radius: 10px;
+    height: 40px;
+    width: 50px;
+}
+.button-reset-2{
+    margin: 0 0 0 300px;
+    position: absolute;
+    top: 30%;
+}
+.button-enter-2{
+    margin:40px 0 0 100px;
+}
+
+
+.whole-total{
+   margin: 20px 0 0 500px; 
+}
+.whole-total p{
+    font-style: italic;
+}
+.whole-total p1{
+    font-style: italic;
+    margin-left: 220px;
+    position: absolute;
+    bottom: 11%;
+}
+.whole-total input[type=number]{
+    margin: 0 0 0px 340px;
+    position: absolute;
+    bottom: 10%;
+     border-radius: 9px;
+    width: 70px;
+    height: 25px;
+}
+.whole-total input[type=button]{
+background-color: orange;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    margin-left: 300px;
+}
