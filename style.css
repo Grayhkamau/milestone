@@ -178,12 +178,12 @@ top: 1470px;
 
 /*details page*/
 .body{
-    width:1000px;
+    max-width:1000px;
     height: auto;
     margin-left: 200px;
 }
 .body nav a li{
-
+margin-right:10px;
 }
 .main-2{
     column-count: 2;
