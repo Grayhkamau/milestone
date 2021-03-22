@@ -11,7 +11,7 @@ align-items: center;
 height: 60px;
 }
 .body-1 nav h{
-    padding-left: 10px;
+    margin-left: 10px;
     font-size: 40px;
 }
 .body-1 ul li{
@@ -25,7 +25,7 @@ height: 60px;
 }
 .body-1 a{
     border-right: 2px solid black;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 .body-1 a:last-child{
     border-right: none;
