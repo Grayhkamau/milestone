@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 .body-1 nav{
+    max-width:1440px;
 background-color: white;
 display: flex;
-align-items: center;
+/*align-items: center;*/
 height: 60px;
 }
 .body-1 nav h{
@@ -17,7 +18,7 @@ height: 60px;
 .body-1 ul li{
     display: inline-block;
     list-style-type:none;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-content: flex-end;
     font-size: 20px;
     font-weight: lighter;
